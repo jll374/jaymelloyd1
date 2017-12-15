@@ -1,0 +1,79 @@
+
+body {
+	background-color: rgb(18,139,243);/*sea blue*/ 
+	min-width: 1200px;
+	max-width: 100%;
+	height:auto;
+	background-image: url("images/backgroundshark.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 100% 30%;
+}    
+
+h1,h2 {
+	color:white;
+	font-family:'Ultra', serif;
+	font-size:7.2rem;
+	font-weight:bold;
+	padding: 5px auto 0 auto;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	top:5rem;
+	line-height:8.5rem;
+	}
+
+h2 {
+	font-size: 3rem;
+	color:#4d4d4d; /*gray*/ 
+	margin: 0;
+	letter-spacing: 0.2rem;
+}
+
+/* Paragraphs */
+.boat {
+	font-family: 'Roboto Slab', serif;
+	line-height: 2.3rem;
+	font-size: 1.5rem;
+	width: 750px;
+	margin: 35px;
+	padding: 20px 20px 0 20px;
+}
+
+/* Nautilus Explorer Link */
+ .boat p a:hover { 
+ color:blue; 
+} 
+
+.boat p a:link {
+	color:white;
+}
+
+
+/* 4 images */
+img.medium{
+	width: 550px;
+	height: 450px;
+}
+
+.sharkimage1, .sharkimage2, .sharkimage3, .sharkimage4 {
+   	float: left;
+	display: inline-block;
+    position:relative;
+    margin: 20px;
+	padding: 10px;
+	background-color: white;
+   } 
+ 
+.groupshark {
+	margin:50px auto;
+	width: 1220px;	
+}
+
+.tip {
+
+	font-family: 'Roboto Slab', serif;
+	line-height: 2.3rem;
+	font-size: 1.5rem;
+	width: 1340px;
+	margin: 35px;
+	padding: 20px;

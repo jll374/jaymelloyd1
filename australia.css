@@ -1,0 +1,92 @@
+body {
+	background-image: url("images/bluewall2.jpg");
+	background-repeat:round;
+	background-attachment: scroll;
+	background-position: 100% 0;
+}
+
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+	padding: 15px 32px;
+	width: 1200px;
+	margin: 0 auto 0 auto;
+	background-color: #4d4d4d; /*gray*/ 
+	color:rgb(252,166,2);/*orange*/
+}
+
+.australia{
+	font-family: 'Roboto Slab', serif;
+	line-height: 2.3rem;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 1.5rem;
+	background-color:white;
+	padding:1rem 2rem;
+	height:1700px;
+}
+
+
+
+img.sydney,.zoo {
+border-radius: 25px;
+margin: 10px;
+}
+
+
+img.tall {
+	width: 25%;
+	height:auto;
+    float:right;
+    display:inline-block;
+    margin:10px;
+}
+
+ 
+
+.zoo {
+	width: 300px;
+	height:450px;
+    float:left;
+	position:relative;
+	border-radius: 25px;
+}
+
+.sydney {
+	width: 450px;
+	height:300px;
+	float:right;
+	position:relative;
+	border-radius: 25px;
+	}
+
+
+
+.wide {
+	width:33%;
+	height:300px;
+    border-radius:25px;
+    margin:0 auto;
+}
+
+.nswgroup section {
+	float:left;
+	display: flex;
+	margin:0 auto;
+	
+}
+
+.sign {
+	width:17.5%;
+    margin:110px 10px 10px 10px;
+}
+.groupsigns section{
+    float:left;
+	display: flex;
+	margin:0 auto;
+
+}
+
+

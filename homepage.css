@@ -1,0 +1,52 @@
+
+* { 
+2   box-sizing: border-box; 
+3 } 
+
+body,p {
+	background-color:#FBBBB9;
+}
+
+body {
+	background-image: url("images/worldmap2.png");
+	background-repeat: no-repeat;
+    background-position:85% 20%;
+    max-width:100%;
+    min-width:1200px;
+	height:auto;
+
+}
+
+
+p {
+	color: black;
+	font-family: Georgia, arial;
+	font-size: 160%;
+	font-weight: bold;
+    margin: 2px auto 0 auto;
+    max-width:900px;
+    min-width:900px; 
+    width:100%;
+	}
+
+h1 {
+	color:black;
+	font-family:'Lobster', cursive;
+	font-size:8.6rem;
+	font-weight:bold;
+	margin: .5rem auto 0 auto;
+	text-align: center;
+	max-width:900px;
+    min-width:900px; 
+	}
+	
+.jayme {
+	position:relative;	
+	display:block;
+	height: 30%;
+	width: 30%;
+	margin: 15px auto 10px auto;
+	padding: .6rem;
+	background-color:white;
+}
+

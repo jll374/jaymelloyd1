@@ -1,0 +1,123 @@
+body {
+	background-image: url("images/bluewall2.jpg");
+	background-repeat:round;
+	background-attachment: scroll;
+	background-position: 100% 0;
+}
+
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+	padding: 15px 32px;
+	width: 1200px;
+	margin: 0 auto 0 auto;
+	background-color: #4d4d4d; /*gray*/ 
+	color:white;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+	font-size: 1.8rem;
+	background-color: orange;
+	padding:10px;
+	margin: -10px -25px;
+
+}
+
+
+.asia, .wicked {
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.9rem;
+	width: 1200px;
+	height:1225px;
+	margin: 0 auto;
+	font-size: 1rem;
+	background-color:white;
+	padding:1rem 2rem 0 2rem;
+}
+
+
+img.bikes,.food {
+padding: 10px;
+margin: 10px 10px 30px 10px;
+}
+
+
+.bikes {
+	width: 450px;
+	height:300px;
+    float:left;
+	position:relative;
+}
+
+.food {
+	width: 450px;
+	height:300px;
+	float:right;
+	position:relative;
+}
+.asiagroup1{
+	background-color:orange;
+    display: flex;
+    width:100%;
+    position:relative;
+    margin:10 auto;
+   
+   }
+
+img.tall {
+	width:23.3%;
+	height:auto;
+    float:right;
+    display:inline-block;
+    margin:10px;
+}
+
+
+ .opening p a:hover { 
+ color:blue; 
+} 
+
+.opening p a:link {
+	color:blue;
+}
+
+.opening p a:active {
+	color: blue;
+}
+
+.medium {
+	width:350px;
+	height: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.xmas4 {
+	display:flex;
+	float: right;
+	position: relative;
+}
+
+img.map {
+	width:30%;
+	height:auto;
+	margin:10px 0 30px 0px;
+}
+
+
+.grouppic {
+	width:725px;
+	height:475px;
+	margin: 10px 45px;
+	border-radius:25px;
+
+}
+
+.group {
+	float:left;
+	display: flex;
+	margin: 35px auto;
+}

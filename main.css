@@ -1,0 +1,83 @@
+* { 
+2   box-sizing: border-box; 
+3 } 
+
+body {
+	min-width: 950px;
+	max-width: 100%;
+}
+
+/* tiny logo/homepage */
+#tinylogo {
+	position:absolute;
+	left:10px;
+	top: 45px;
+	width: 50px;
+	z-index: 1;
+}
+
+
+/* Facebook Icon */
+#iconfb {
+   
+    width:30px;
+    height: auto;
+    position:absolute;
+	left:150px;
+	top:95px;
+}
+
+
+/* Instagram Icon */
+#iconin {
+    width: 35px;
+    height: auto;
+    position: absolute;
+    left: 185px;
+    top: 93px;
+}
+
+
+/* Logo */
+#logo {
+	height: 20%;
+	width: 20%;
+	margin: 20px auto 60px auto;
+	}
+
+/* Nav bar */
+ul {
+	font-family: 'Lobster', cursive;
+	font-size: 2rem;
+	font-weight: normal;
+	padding: 40px;
+	}
+
+.navbar { 
+	background-color:#4d4d4d; /*gray*/
+	height: 7.8rem;  
+	top: 0; 
+	left: 0; 
+	width:auto;
+	text-align: right;
+	   } 
+ 
+.navbar ul li { 
+	display: inline-block; 
+	position: relative;
+	z-index: 2;
+ } 
+
+.navbar ul li a { 
+	color:white; 
+	display: inline-block; 
+	padding: 20px; 
+	text-decoration: none; 
+}
+
+.navbar ul li a:hover { 
+ color:pink; 
+}
+
+
+
