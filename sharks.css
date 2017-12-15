@@ -1,13 +1,20 @@
 
+
+* { 
+	box-sizing: border-box; 
+ } 
+
 body {
+	
+    background-attachment: scroll; 
 	background-color: rgb(18,139,243);/*sea blue*/ 
-	min-width: 1200px;
-	max-width: 100%;
-	height:auto;
-	background-image: url("images/backgroundshark.png");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
+    background-image: url("images/backgroundshark.png");
 	background-position: 100% 30%;
+    background-repeat: no-repeat;
+	height:auto;
+    min-width: 1200px;
+	max-width: 100%;
+
 }    
 
 h1,h2 {
@@ -15,28 +22,28 @@ h1,h2 {
 	font-family:'Ultra', serif;
 	font-size:7.2rem;
 	font-weight:bold;
-	padding: 5px auto 0 auto;
-	margin: 100px auto 0 auto;
-	text-align: center;
-	top:5rem;
 	line-height:8.5rem;
-	}
+	margin: 100px auto 0 auto;
+	padding: 5px auto 0 auto;
+    text-align: center;
+	top:5rem;
+}
 
 h2 {
-	font-size: 3rem;
 	color:#4d4d4d; /*gray*/ 
-	margin: 0;
+	font-size: 3rem;
 	letter-spacing: 0.2rem;
+	margin: 0;
 }
 
 /* Paragraphs */
 .boat {
 	font-family: 'Roboto Slab', serif;
-	line-height: 2.3rem;
 	font-size: 1.5rem;
-	width: 750px;
+    line-height: 2.3rem;
 	margin: 35px;
 	padding: 20px 20px 0 20px;
+	width: 750px;
 }
 
 /* Nautilus Explorer Link */
@@ -51,18 +58,18 @@ h2 {
 
 /* 4 images */
 img.medium{
-	width: 550px;
 	height: 450px;
+	width: 550px;
 }
 
 .sharkimage1, .sharkimage2, .sharkimage3, .sharkimage4 {
-   	float: left;
+   	background-color: white;
 	display: inline-block;
+    float: left;
     position:relative;
     margin: 20px;
 	padding: 10px;
-	background-color: white;
-   } 
+} 
  
 .groupshark {
 	margin:50px auto;
@@ -72,8 +79,9 @@ img.medium{
 .tip {
 
 	font-family: 'Roboto Slab', serif;
-	line-height: 2.3rem;
 	font-size: 1.5rem;
-	width: 1340px;
+	line-height: 2.3rem;
 	margin: 35px;
 	padding: 20px;
+    width: 1340px;
+}

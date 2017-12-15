@@ -1,16 +1,17 @@
 * { 
-2   box-sizing: border-box; 
-3 } 
+   box-sizing: border-box; 
+ } 
 
 body {
-	min-width: 950px;
 	max-width: 100%;
+	min-width: 950px;	
 }
+
 
 /* tiny logo/homepage */
 #tinylogo {
-	position:absolute;
 	left:10px;
+	position:absolute;
 	top: 45px;
 	width: 50px;
 	z-index: 1;
@@ -19,30 +20,30 @@ body {
 
 /* Facebook Icon */
 #iconfb {
-   
-    width:30px;
     height: auto;
+    left:150px;
     position:absolute;
-	left:150px;
 	top:95px;
+	width:30px;
 }
 
 
 /* Instagram Icon */
 #iconin {
-    width: 35px;
     height: auto;
     position: absolute;
     left: 185px;
     top: 93px;
+    width: 35px;
 }
+
 
 
 /* Logo */
 #logo {
 	height: 20%;
-	width: 20%;
 	margin: 20px auto 60px auto;
+	width: 20%;
 	}
 
 /* Nav bar */
@@ -51,16 +52,16 @@ ul {
 	font-size: 2rem;
 	font-weight: normal;
 	padding: 40px;
-	}
+}
 
 .navbar { 
 	background-color:#4d4d4d; /*gray*/
 	height: 7.8rem;  
-	top: 0; 
 	left: 0; 
-	width:auto;
 	text-align: right;
-	   } 
+	top: 0; 
+	width:auto;
+} 
  
 .navbar ul li { 
 	display: inline-block; 
